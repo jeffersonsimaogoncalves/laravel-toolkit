@@ -19,14 +19,14 @@
     "require": {
         "php": "^8.0|^8.1"
     },
+    "require-dev": {
+        "laravel/laravel": "^8.6"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
-    },
-    "require-dev": {
-        "laravel/laravel": "^8.6"
     }
 }
