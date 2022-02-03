@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace JustSteveKing\LaravelToolkit;
+namespace JustSteveKing\LaravelToolkit\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelToolkitServiceProvider extends ServiceProviderProvider
+class LaravelToolkitServiceProvider extends ServiceProvider
 {
     public function register(): void
     {

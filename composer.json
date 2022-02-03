@@ -20,12 +20,13 @@
         "php": "^8.0|^8.1"
     },
     "require-dev": {
-        "laravel/laravel": "^8.6"
+        "laravel/laravel": "^8.6",
+        "phpstan/phpstan": "^1.4"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "JustSteveKing\\LaravelToolkit\\LaravelToolkitServiceProvider"
+                "JustSteveKing\\LaravelToolkit\\Providers\\LaravelToolkitServiceProvider"
             ]
         }
     },
