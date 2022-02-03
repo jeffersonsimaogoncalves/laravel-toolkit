@@ -1,0 +1,14 @@
+{
+    "name": "juststeveking/laravel-toolkit",
+    "description": "A simple toolkit package to help me do what I do with Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve McDougall",
+            "email": "juststevemcd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
