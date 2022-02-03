@@ -25,5 +25,8 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
+    },
+    "require-dev": {
+        "laravel/laravel": "^8.6"
     }
 }
