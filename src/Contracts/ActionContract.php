@@ -11,8 +11,8 @@ interface ActionContract
     /**
      * Handle the action and return the Model back.
      *
-     * @param ValueObjectContract $object
+     * @param DataObjectContract $object
      * @return Model
      */
-    public static function handle(ValueObjectContract $object): Model;
+    public static function handle(DataObjectContract $object): Model;
 }

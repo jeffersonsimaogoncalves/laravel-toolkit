@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace JustSteveKing\LaravelToolkit\Contracts;
 
-interface ValueObjectContract
+interface DataObjectContract
 {
     /**
-     * Return the Value Object back as an array representation.
+     * Return the Data Object back as an array representation.
      *
      * @return array
      */

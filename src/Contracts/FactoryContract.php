@@ -7,10 +7,10 @@ namespace JustSteveKing\LaravelToolkit\Contracts;
 interface FactoryContract
 {
     /**
-     * Pass in a formed array and turn it into a Value Object.
+     * Pass in a formed array and turn it into a Data Object.
      *
      * @param array $attributes
-     * @return ValueObjectContract
+     * @return DataObjectContract
      */
-    public static function make(array $attributes): ValueObjectContract;
+    public static function make(array $attributes): DataObjectContract;
 }
